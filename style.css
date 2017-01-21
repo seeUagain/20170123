@@ -1,0 +1,46 @@
+* {
+    font-family: '微软雅黑';
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container p {
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #ffcecc;
+    padding: 10px 0;
+    width: 95%;
+    margin: 0 2.5%;
+}
+
+.container div {
+    width: 90%;
+    margin: 30px 5% 0 5%;
+    height: 80%;
+}
+
+.container div img {
+    width: 100%;
+    height: 100%;
+}
+
+.container div h5 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #ffcecc;
+}

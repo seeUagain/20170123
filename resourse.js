@@ -16,7 +16,7 @@ const texts = [
 const images = [
     {
         text: '2015.1. 第一次看到你的照片', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/8bc9ca83d46bd82dd43dcf2fa2fd2369?fid=890062901-250528-172243957784795&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-gOVaTCrHajLmm%2FUJuBpkf%2FYOWdg%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/48f1e35592ef4136f13e/2000',
         properties: {
             in: 'transition.fadeIn',
             out: 'transition.fadeOut'
@@ -24,7 +24,7 @@ const images = [
     },
     {
         text: '2015.2.22 我们一起看了第一场电影，吃了第一次饭', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/fd05e023c910b80871ab165132404f52?fid=890062901-250528-1076052888019592&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-ePbXpGu2am0%2FUUlqPcchVsdWZdg%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/61aff4c3c45d9d348b9c/460',
         properties: {
             in: 'transition.flipXIn',
             out: 'transition.fadeOut'

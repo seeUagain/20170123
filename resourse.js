@@ -24,7 +24,7 @@ const images = [
     },
     {
         text: '2015.2.22 我们一起看了第一场电影，吃了第一次饭', 
-        src: 'http://t1.qpic.cn/mblogpic/61aff4c3c45d9d348b9c/460',
+        src: 'http://t1.qpic.cn/mblogpic/61aff4c3c45d9d348b9c/2000',
         properties: {
             in: 'transition.flipXIn',
             out: 'transition.fadeOut'
@@ -32,7 +32,7 @@ const images = [
     },
     {
         text: '2015.4.8 我们一起去了常州恐龙园', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/2d844cc790abb8352df3a7cf9936df0e?fid=890062901-250528-728756288539575&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-GwVFI%2BRF2dlvoT0FskUSzbZ5Lkw%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/f7ecac0ed068aef1c028/2000',
         properties: {
             in: 'transition.flipYIn',
             out: 'transition.fadeOut'
@@ -40,7 +40,7 @@ const images = [
     },
     {
         text: '2015.7.5 我们夜游秦淮', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/4c5a33e21a197d901e27543e45dd5a87?fid=890062901-250528-691415491446135&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-5McpeXNGo7lXa9d69V2a2VtiQ%2Bg%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/6b87c9baf2ab2d17d5a2/2000',
         properties: {
             in: 'transition.flipBounceXIn',
             out: 'transition.fadeOut'
@@ -48,7 +48,7 @@ const images = [
     },
     {
         text: '2015.7.22 谢谢你陪我过生日', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/48c6d65f45939853886285db50aad2d4?fid=890062901-250528-789313710679151&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-4PATJV97Dy8z%2BCsO6KLFnCzgRH4%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472824900112693020&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/95fe66954807c53c200c/2000',
         properties: {
             in: 'transition.flipBounceYIn',
             out: 'transition.fadeOut'
@@ -56,7 +56,7 @@ const images = [
     },
     {
         text: '2015.8.16 酷暑下清凉的水魔方', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/eb58d8a5e02244b47a83f88fb7dda6a3?fid=890062901-250528-195089604631213&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-PveE9SAQ6D7%2BMObbu3Y7bdZHssk%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472824900112693020&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/f202cd247c72c7b08bb0/2000',
         properties: {
             in: 'transition.swoopIn',
             out: 'transition.fadeOut'
@@ -64,7 +64,7 @@ const images = [
     },
     {
         text: '2015.10.12 终~于~我~们~结~婚~啦!~', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/670d7379f57a273fdaf5e7deac48357b?fid=890062901-250528-599474540437820&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-jXYY6F8%2Fo%2F%2FvDy7yCWr8TgsrX%2Fk%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472824900112693020&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/a6cf71b2eb65acddda16/2000',
         properties: {
             in: 'transition.whirlIn',
             out: 'transition.fadeOut'
@@ -72,7 +72,7 @@ const images = [
     },
     {
         text: '那一天的你是最美的你', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/28e72b411cd699d0934a6be9a641f8dd?fid=890062901-250528-1059994379848958&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-A43QC9oFjJMMtjARShEtjqklLfs%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472824900112693020&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/bd322f410cbf63a5d63a/2000',
         properties: {
             in: 'transition.shrinkIn',
             out: 'transition.fadeOut'
@@ -80,7 +80,7 @@ const images = [
     },
     {
         text: '2016.1.23 这次换我陪你过生日啦', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/63953380be91e700e385eaf465495759?fid=890062901-250528-938115110159263&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-ycddpvFaRab7xvymZwimHQbLiqU%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472824900112693020&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/637928421df3eba3b140/2000',
         properties: {
             in: 'transition.expandIn',
             out: 'transition.fadeOut'
@@ -88,7 +88,7 @@ const images = [
     },
     {
         text: '2016.3 蜜月之行正式开始，我们行走在张家界的天然氧吧中', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/fdea176fd5e238540519c099d8a8ac88?fid=890062901-250528-405235464596214&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-7nfyoUmUp9AlIxhKzRhpB1mmhRI%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/fca34a218b2f41363d6c/2000',
         properties: {
             in: 'transition.bounceIn',
             out: 'transition.fadeOut'
@@ -96,7 +96,7 @@ const images = [
     },
     {
         text: '在玻璃栈道上瑟瑟发抖', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/21e877f0b18aa022a47a885de5d1fe97?fid=890062901-250528-343450926715611&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-j9kMICAVuamre0WTVzXlYl9gduQ%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/7798f85e29a1cb7ca406/2000',
         properties: {
             in: 'transition.bounceUpIn',
             out: 'transition.fadeOut'
@@ -104,7 +104,7 @@ const images = [
     },
     {
         text: '凤凰古城里也留下了你最美的身影', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/40741419cb3195c65385d494bac6e83d?fid=890062901-250528-917221865988215&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-DVRSBgXkLMH0EilZ5AObzFztYmM%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/f34d72163493046a988c/2000',
         properties: {
             in: 'transition.bounceDownIn',
             out: 'transition.fadeOut'
@@ -112,7 +112,7 @@ const images = [
     },
     {
         text: '你在海神庙绝美的景色中添加了最动人的一笔', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/23fd7e743f9546418d6f2b7ef3753a3f?fid=890062901-250528-30384848264899&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-eAHLIlRjTiURFGEg5eZ9hxTygJ8%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/34a67f6ca35aee7564c4/2000',
         properties: {
             in: 'transition.slideLeftIn',
             out: 'transition.fadeOut'
@@ -120,7 +120,7 @@ const images = [
     },
     {
         text: '阿勇河上有我们的欢声笑语', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/88284155abbc35b123eaa2b0c7da8e7b?fid=890062901-250528-1050566102595513&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-hMXXHoNdM3tGg6yHajO7kJEolmk%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/0e9877a31937a0cd9ee2/2000',
         properties: {
             in: 'transition.slideRightIn',
             out: 'transition.fadeOut'
@@ -128,7 +128,7 @@ const images = [
     },
     {
         text: '白沙滩上有你活泼的身影', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/a0fcf641bc9e03f8bfffe0917eebda4e?fid=890062901-250528-39149280956963&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-IzwA%2F7Qi%2FGwIq7qQrC4wWeNeSTk%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/1032173ff6248b800de2/2000',
         properties: {
             in: 'transition.perspectiveUpIn',
             out: 'transition.fadeOut'
@@ -136,7 +136,7 @@ const images = [
     },
     {
         text: '2016.6.2 我们去看了懒懒的熊猫，威风的老虎...', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/6ea2703080e3ba1b4f515ac500f4ccbf?fid=890062901-250528-32730255233873&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-REeJ%2BttVfAJivzXJ1nGFGtQ2p4s%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/4fd41c70a902b3b24cf0/2000',
         properties: {
             in: 'transition.perspectiveDownIn',
             out: 'transition.fadeOut'
@@ -144,7 +144,7 @@ const images = [
     },
     {
         text: '2016.6 你生病的样子实在让人心疼', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/edc5e84ea7889816bd50b91fcc4cf828?fid=890062901-250528-436717755551597&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-O9LzQIwG%2BqsCWuNUETowVHlht%2Fk%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/c7e1c7933ed99fa454ca/2000',
         properties: {
             in: 'transition.bounceLeftIn',
             out: 'transition.fadeOut'
@@ -152,7 +152,7 @@ const images = [
     },
     {
         text: '2016.9.25 你开心的像个（熊）孩子', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/7a05983b5817aefcf64f08b5ed2c71e4?fid=890062901-250528-663320685177608&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-rkIQ211X5eshd%2Ble74eBUQPahvQ%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/984e5dfedb03195546ba/2000',
         properties: {
             in: 'transition.bounceRightIn',
             out: 'transition.fadeOut'
@@ -160,7 +160,7 @@ const images = [
     },
     {
         text: '2016.10.12 结婚壹周年纪念日', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/672d2df954fdf0986849b9def431788e?fid=890062901-250528-37773101153665&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-5jwA7tZ60g%2F9Y9CTYcY1PAIL6qw%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/b60db8abe9d8fe61dd1c/2000',
         properties: {
             in: 'transition.slideUpIn',
             out: 'transition.fadeOut'
@@ -168,7 +168,7 @@ const images = [
     },
     {
         text: '2016.10.22 拍摄婚纱照', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/41808ae90bdd0d4031711198018060d8?fid=890062901-250528-35305833467281&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-TEkSB%2BPATy35%2FzqbqvYDaAYwA8E%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/2011990a6f9057ec3226/2000',
         properties: {
             in: 'transition.slideDownIn',
             out: 'transition.fadeOut'
@@ -176,7 +176,7 @@ const images = [
     },
     {
         text: '无论是吃货的你', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/4f57070e928a4f7b3d9f07d9278e176e?fid=890062901-250528-642675733285388&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-VlxGkw6hlqTv5hrhsDngiRB6vaw%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/2d1ca49861b8f8e4e51e/2000',
         properties: {
             in: 'transition.perspectiveLeftIn',
             out: 'transition.fadeOut'
@@ -184,7 +184,7 @@ const images = [
     },
     {
         text: '还是犯二的你', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/736a7457a921a9ab9c6d448e031e31e6?fid=890062901-250528-818561307265733&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-fITdiLoAK%2FtNBHJzpzU4dUGaiQo%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/3b1d1ee1529587574414/2000',
         properties: {
             in: 'transition.perspectiveRightIn',
             out: 'transition.fadeOut'
@@ -192,7 +192,7 @@ const images = [
     },
     {
         text: '我都会一直爱着你~', 
-        src: 'http://thumbnail0.baidupcs.com/thumbnail/b7df46af82ae97b85c4b0954cd3003c2?fid=890062901-250528-581482646446023&time=1484960400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-VywlFvbkSHuXn0A8rvluCtklfMg%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=472864855641890470&dp-callid=0&size=c1920_u1080&quality=90',
+        src: 'http://t1.qpic.cn/mblogpic/0be9ef5aac71ccbe93dc/2000',
         properties: {
             in: 'transition.expandIn',
             out: 'transition.fadeOut'

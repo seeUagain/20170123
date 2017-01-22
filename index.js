@@ -1,42 +1,42 @@
-const initSequense = (elements) => {
-    return [
-        {
-            elements: elements,
-            properties: 'transition.fadeIn',
-            options: {
-                duration: 1000
-            }
+'use strict';
+
+var initSequense = function initSequense(elements) {
+    return [{
+        elements: elements,
+        properties: 'transition.fadeIn',
+        options: {
+            duration: 1000
         }
-    ]
-}
+    }];
+};
 
 var index = 0;
-const showWord = (callback) => {
-    let p = document.createElement('p');
-    let text = texts[index];
-    let length = text.length;
-    let i = 0;
-    let tid = null;
+var showWord = function showWord(callback) {
+    var p = document.createElement('p');
+    var text = texts[index];
+    var length = text.length;
+    var i = 0;
+    var tid = null;
     // $('#container').append(p);
     document.getElementById('container').appendChild(p);
-    tid = setInterval(() => {
+    tid = setInterval(function () {
         p.innerHTML += text.charAt(i);
         if (i++ === length) {
             clearInterval(tid);
             if (texts.length > ++index) {
-                showWord(callback)
+                showWord(callback);
             } else {
                 callback();
             }
         }
     }, 100);
-}
+};
 
 var div;
 var img;
 var h5;
 var i = 0;
-const initPics = () => {
+var initPics = function initPics() {
     div = document.createElement('div');
     img = document.createElement('img');
     div.appendChild(img);
@@ -46,9 +46,9 @@ const initPics = () => {
     h5.innerHTML = images[i].text;
     document.getElementById('container').appendChild(div);
     showPics();
-}
+};
 
-const showPics = () => {
+var showPics = function showPics() {
     $(div).velocity(images[i].properties.in, {
         duration: 1000
     });
@@ -56,33 +56,33 @@ const showPics = () => {
         $(div).velocity(images[i].properties.out, {
             duration: 500,
             delay: 5000,
-            complete: () => {
+            complete: function complete() {
                 // if (++i === images.length) {
                 //     // end();
                 //     return;
                 // } else {
-                    img.src = images[i].src;
-                    h5.innerHTML = images[i].text;
-                    showPics();
+                img.src = images[i].src;
+                h5.innerHTML = images[i].text;
+                showPics();
                 // }
             }
         });
     }
-}
+};
 
-const is_weixn = () => {  
-    let ua = navigator.userAgent.toLowerCase();  
-    if(ua.match(/MicroMessenger/i)=="micromessenger") {  
-        return true;  
-    } else {  
-        return false;  
-    }  
-} 
+var is_weixn = function is_weixn() {
+    var ua = navigator.userAgent.toLowerCase();
+    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+        return true;
+    } else {
+        return false;
+    }
+};
 
-const start = () => {
-    setTimeout(() => {
-        showWord(() => {
-            setTimeout(() => {
+var start = function start() {
+    setTimeout(function () {
+        showWord(function () {
+            setTimeout(function () {
                 $('#container').empty();
                 initPics();
             }, 3000);
@@ -90,7 +90,7 @@ const start = () => {
         snowflake();
         // audioAutoPlay('media');
     }, 2000);
-}
+};
 
 // function audioAutoPlay(id){
 //     var audio = document.getElementById(id);
@@ -101,48 +101,50 @@ const start = () => {
 // }
 
 // (() => {
-    //  var audio = document.createElement( 'audio' ); 
+//  var audio = document.createElement( 'audio' ); 
 
-    //  audio.id = 'media';    
-    //  audio.src = mediaUrl;
-    //  audio.play();  
-    //  audio.addEventListener('play', function() {
-    //      var $this = this;       
-    //      (function loop() {
-    //         if (!$this.paused && !$this.ended) {      
-    //             setTimeout(loop, 1000 / 30); // drawing at 30fps
-    //         }
-    //     })();
-    // }, 0);
-    // $('#container').append( audio );
-    // if (is_weixn()) {
+//  audio.id = 'media';    
+//  audio.src = mediaUrl;
+//  audio.play();  
+//  audio.addEventListener('play', function() {
+//      var $this = this;       
+//      (function loop() {
+//         if (!$this.paused && !$this.ended) {      
+//             setTimeout(loop, 1000 / 30); // drawing at 30fps
+//         }
+//     })();
+// }, 0);
+// $('#container').append( audio );
+// if (is_weixn()) {
 
-    //     audioAutoPlay('audio');
-    //     // alert('wx');
-    //     wx.config({
-    //         debug: false,
-    //         appId: '',
-    //         timestamp: '', 
-    //         nonceStr: '',
-    //         signature: '',
-    //         jsApiList: []
-    //     });
-    //     wx.ready(function () {
-    //         audioAutoPlay('audio');
-    //         // setTimeout(() => {
-    //         //     let audio = document.getElementById('audio');
-    //         //     // alert('111');
-    //         //     // console.log(audio);
-    //         //     audio.src = '//music.163.com/outchain/player?type=2&id=3801865&auto=1&height=66';
-    //         //     audio.play();
-    //         //     start();
-    //         // }, 1000);
-            
-    //     });
-    // } else {
-        window.onload = () => start();
-       
-    // }
+//     audioAutoPlay('audio');
+//     // alert('wx');
+//     wx.config({
+//         debug: false,
+//         appId: '',
+//         timestamp: '', 
+//         nonceStr: '',
+//         signature: '',
+//         jsApiList: []
+//     });
+//     wx.ready(function () {
+//         audioAutoPlay('audio');
+//         // setTimeout(() => {
+//         //     let audio = document.getElementById('audio');
+//         //     // alert('111');
+//         //     // console.log(audio);
+//         //     audio.src = '//music.163.com/outchain/player?type=2&id=3801865&auto=1&height=66';
+//         //     audio.play();
+//         //     start();
+//         // }, 1000);
+
+//     });
+// } else {
+window.onload = function () {
+    return start();
+};
+
+// }
 // })();
 
 // function audioAutoPlay(id){
@@ -156,7 +158,7 @@ const start = () => {
 //         audio.pause();
 //         // document.removeEventListener("touchstart", play, false);
 //     };
-    
+
 //     audio.play();
 //     audio.pause();
 
@@ -190,16 +192,16 @@ function snowflake() {
         }).addClass('snowRoll');
     }
     // 开始飘花
-    setInterval(function() {
+    setInterval(function () {
         var container = $("#container");
         var visualWidth = container.width();
         var visualHeight = container.height();
         // 运动的轨迹
         var startPositionLeft = Math.random() * visualWidth - 100,
-            startOpacity    = 1,
-            endPositionTop  = visualHeight - 40,
+            startOpacity = 1,
+            endPositionTop = visualHeight - 40,
             endPositionLeft = startPositionLeft - 100 + Math.random() * 500,
-            duration        = visualHeight * 10 + Math.random() * 5000;
+            duration = visualHeight * 10 + Math.random() * 5000;
 
         // 随机透明度，不小于0.5
         var randomStart = Math.random();
@@ -211,7 +213,7 @@ function snowflake() {
         // 设计起点位置
         $flake.css({
             left: startPositionLeft,
-            opacity : randomStart
+            opacity: randomStart
         });
 
         // 加入到容器
@@ -222,10 +224,9 @@ function snowflake() {
             top: endPositionTop,
             left: endPositionLeft,
             opacity: 0.7
-        }, duration, 'ease-out', function() {
-            $(this).remove() //结束后删除
+        }, duration, 'ease-out', function () {
+            $(this).remove(); //结束后删除
         });
-        
     }, 200);
 }
 
